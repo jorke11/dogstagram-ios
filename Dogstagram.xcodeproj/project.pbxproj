@@ -15,6 +15,8 @@
 		14D00C68229B1E86004568E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D00C66229B1E86004568E2 /* LaunchScreen.storyboard */; };
 		14D00C73229B1E86004568E2 /* DogstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D00C72229B1E86004568E2 /* DogstagramTests.swift */; };
 		14D00C7E229B1E86004568E2 /* DogstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D00C7D229B1E86004568E2 /* DogstagramUITests.swift */; };
+		14D00C8D229B1F58004568E2 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D00C8B229B1F58004568E2 /* ItemCollectionViewCell.swift */; };
+		14D00C8E229B1F58004568E2 /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14D00C8C229B1F58004568E2 /* ItemCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		14D00C79229B1E86004568E2 /* DogstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D00C7D229B1E86004568E2 /* DogstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogstagramUITests.swift; sourceTree = "<group>"; };
 		14D00C7F229B1E86004568E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14D00C8B229B1F58004568E2 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		14D00C8C229B1F58004568E2 /* ItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				14D00C5A229B1E85004568E2 /* AppDelegate.swift */,
 				14D00C5C229B1E85004568E2 /* ViewController.swift */,
 				14D00C5E229B1E85004568E2 /* Main.storyboard */,
+				14D00C8B229B1F58004568E2 /* ItemCollectionViewCell.swift */,
+				14D00C8C229B1F58004568E2 /* ItemCollectionViewCell.xib */,
 				14D00C64229B1E86004568E2 /* Assets.xcassets */,
 				14D00C66229B1E86004568E2 /* LaunchScreen.storyboard */,
 				14D00C69229B1E86004568E2 /* Info.plist */,
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14D00C68229B1E86004568E2 /* LaunchScreen.storyboard in Resources */,
+				14D00C8E229B1F58004568E2 /* ItemCollectionViewCell.xib in Resources */,
 				14D00C65229B1E86004568E2 /* Assets.xcassets in Resources */,
 				14D00C60229B1E85004568E2 /* Main.storyboard in Resources */,
 			);
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14D00C5D229B1E85004568E2 /* ViewController.swift in Sources */,
+				14D00C8D229B1F58004568E2 /* ItemCollectionViewCell.swift in Sources */,
 				14D00C63229B1E85004568E2 /* Dogstagram.xcdatamodeld in Sources */,
 				14D00C5B229B1E85004568E2 /* AppDelegate.swift in Sources */,
 			);
@@ -438,6 +446,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Dogstagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Dogstagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
